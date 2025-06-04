@@ -1,0 +1,16 @@
+addict
+future
+librosa
+lmdb
+numba
+numpy
+Pillow
+pyyaml
+requests
+scikit-image
+scipy
+tb-nightly
+tqdm
+yapf
+ffmpeg-python
+redis
