@@ -192,3 +192,21 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+**/__pycache__/**
+**/output/**
+**/frame_preHD/**
+**/output_preHD/**
+.env
+ai_core/tts/model/**
+.venv/**
+ai_core/REAL_ESRGAN/weights/**
+ai_core/wav2lip/model
+ai_core/wav2lip/source/face_detection/detection/sfd/s3fd.pth
+ai_core/wav2lip/data/input
+ai_core/wav2lip/data/input
+ai_core/wav2lip/output_preHD
+test.py
+gfpgan
+**/temp/**
+logs
