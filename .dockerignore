@@ -1,0 +1,9 @@
+.venv/
+.git/
+**/*/__pycache__/
+.venv
+EAC_API/.env
+image_temp.jpg
+**/.DS_Store
+**/__pycache__
+logs/**

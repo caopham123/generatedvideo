@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  ttlab-virtual-teacher:
+    build: .
+    platform: linux/amd64
+    image: ttlab-virtual-teacher
+    container_name: ttlab-virtual-teacher
+    command: python3 main.py
+    restart: always
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+
